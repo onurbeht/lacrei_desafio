@@ -1,0 +1,40 @@
+.container {
+    margin: 0 4rem 3rem 4rem ;
+    border-top: 1px solid #B0E0D3;
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+}
+
+.options {
+    list-style: none;
+    display: flex;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all .3sec;
+    margin: 2rem 0;
+}
+
+.options > li {
+    margin-right: 2rem;
+}
+
+.options > li > a {
+    text-decoration: none;
+    color: #1f1f1f;
+}
+
+.options > li > a:hover {
+    color: var(--main-color)
+}
+
+.container > svg {
+    color: var(--main-color)
+}
+
+.icons {
+    display: flex;
+    gap: 3rem;
+    color: var(--main-color);
+    font-size: 1.2rem;
+}
