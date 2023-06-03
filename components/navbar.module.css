@@ -39,3 +39,52 @@
 .options > li > a:hover {
     color: var(--main-color)
 }
+
+
+/*MEDIA QUERY */
+
+@media (max-width: 850px) {
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: #EEE;
+        font-weight: 700;
+        max-width: max-content;
+    }
+    
+    .container a {
+        text-decoration: none;
+    }
+    
+    .container h1 {
+        padding: .5rem;
+        font-size: 2rem;
+    }
+    
+    .container > h1 > a {
+        color: var(--main-color);
+    }
+    
+    .options {
+        list-style: none;
+        display: flex;
+        padding: .5rem 1rem;
+        font-size: 1rem;
+    }
+    
+    .options > li {
+        margin: 0 1rem;
+        cursor: pointer;
+        transition: all .5s;
+    }
+    
+    .options > li > a {
+        color: #1f1f1f;
+    }
+    
+    .options > li > a:hover {
+        color: var(--main-color)
+    }
+    
+}
